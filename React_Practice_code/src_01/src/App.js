@@ -5,6 +5,7 @@ import {ProfilePersonAlan} from './ComponentsTesting.js';
 import TodoList from './ComponentTesting01.js';
 import ProfilePersonPassingProps from './UsingProps';
 import PackingList from './ConditonalRendering';
+import {MappingArray} from "./RenderingArrays";
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
             <ProfilePersonPassingProps />;
 
             <PackingList />;
+
+            <h2>Rendering Arrays: </h2>
+            <MappingArray />;
         </>
 
     );
